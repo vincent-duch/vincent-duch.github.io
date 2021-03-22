@@ -1,1 +1,0 @@
-# vincent-duch.github.io
