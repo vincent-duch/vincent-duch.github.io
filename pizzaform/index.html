@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>Pizza Form</title>
+    <style type="text/css">
+
+    </style>
+	<link rel="stylesheet" type="text/css" href="PEDUCHE_IMAGES_ITAD/style.css">
+</head>
+<body>
+    <!--PEDUCHE, JOHN VINCENT-->
+    <!--MAY 4, 2021-->
+<table>	
+	<form action>
+	<thead>
+		<tr>
+			<th class="title "colspan="2">CUSTOMER INFORMATION</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		<tr>
+			<td><label for="name">FULLNAME:</label></td>
+			<td><input type="text" name="name" size="30" placeholder="Please input your Name..." maxlength="50"></td>
+		</tr>
+			<td><label for="name">ADDRESS:</label></td>
+			<td><input type="text" name="name1" size="30" placeholder="Please input your address..." maxlength="50"></td>
+		<tr>
+			<td><label for="name">CONTACT NUMBER:</label></td>
+			<td><input type="text" name="name2" size="30" placeholder="Please input your contact number..." maxlength="50"></td>	
+		</tr>
+		<tr>
+			<td><label for="name">EMAIL ADDRESS:</label></td>
+			<td><input type="text" name="name3" size="30" placeholder="Please input your email address..." maxlength="50"></td>
+		</tr>
+		<tr>
+			<td><label for="ability">How to Get There?</label></td>
+			<td>
+				<textarea rows="10" cols="50"></textarea>
+			</td>
+		</tr>
+		
+			<tr>
+				<th colspan="2"><img src="PEDUCHE_IMAGES_ITAD/food1.jpg"></th>
+			</tr>		
+			<tr>
+				<th class="title " colspan="2">ORDER DETAILS</th>								
+				<tr>
+					<td><label for="choose">CHOOSE YOUR ORDERS:</label></td>				
+					<td>
+						<input type="checkbox" id="foodburger" name="Burger" value="Burger">
+							<label for="foodburger">Burgers</label><br>
+						<input type="checkbox" id="foodfries" name="Fries" value="Fries">
+							<label for="foodfries">Fries</label><br>
+						<input type="checkbox" id="foodpasta" name="Pasta" value="Pasta">
+							<label for="foodpasta">Pasta</label><br>
+						<input type="checkbox" id="fooddrink" name="Drink" value="Drinks">
+							<label for="fooddrink">Drinks</label><br>							
+					</td>
+				</tr>	
+			</tr>			
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr>
+			<th class="title " colspan="2">BURGERS</th>			
+		</tr>
+		<tr>		
+			<th colspan="2"><img src="PEDUCHE_IMAGES_ITAD/burger.jpg" class="burger"></th>
+		</tr>
+		<tr>
+			<td><label for="burger">BURGERS:</label></td>
+			<td>
+				<input type="checkbox" id="burger1" name="BurgerFood" value="Single">
+					<label for="burger1">Single Patty</label><br>
+				<input type="checkbox" id="burger2" name="BurgerFood" value="Double">
+					<label for="burger2">Double Patty</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td><br></td>
+		</tr>
+		<tr>
+		<td><label for="burgeradds">BURGER ADD ONS:</label></td>
+			<td>
+				<input type="radio" id="burgeradd" name="BurgerAdd" value="Cheese">
+					<label for="burgeradd">Cheese</label><br>
+				<input type="radio" id="burgeradd2" name="BurgerAdd" value="Coleslaw">
+					<label for="burgeradd2">Coleslaw</label><br>
+				<input type="radio" id="burgeradd3" name="BurgerAdd" value="Tomato">
+					<label for="burgeradd3">Tomato</label><br>
+				<input type="radio" id="burgeradd4" name="BurgerAdd" value="Onion">
+					<label for="burgeradd4">Onion</label><br>					
+				<input type="radio" id="burgeradd5" name="BurgerAdd" value="Cucumber">
+					<label for="burgeradd5">Cucumber</label><br>
+				<input type="radio" id="burgeradd6" name="BurgerAdd" value="Bacon">
+					<label for="burgeradd6">Bacon</label><br>					
+			</td>
+		</tr>
+		<tr>
+			<td><br></td>
+		</tr>		
+		<tr>
+			<td><label for="burger">CHOICE OF BUN:</label></td>
+			<td>
+				<input type="checkbox" id="bun1" name="BurgerBread" value="White">
+					<label for="bun1">White Bun</label><br>
+				<input type="checkbox" id="bun2" name="BurgerBread" value="Wheat">
+					<label for="bun2">Wheat Bun</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=3><label>Quantity:</label>
+				<input type="number" size="2" ></td>
+		</tr>
+
+		<tr>
+			<th class="title " colspan="2">FRIES</th>			
+		</tr>
+		<tr>		
+			<th colspan="2"><img src="PEDUCHE_IMAGES_ITAD/fries.jpg" class="burger"></th>
+		</tr>
+		<tr>
+		<td><label for="fries">FRIES SIZE:</label></td>
+			<td colspan="3">
+				<input type="radio" id="size" name="small" value="Small">
+					<label for="size">Small</label><br>
+				<input type="radio" id="size1" name="medium" value="Medium">
+					<label for="size1">Medium</label><br>
+				<input type="radio" id="size2" name="large" value="Large">
+					<label for="size2">Large</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<label for="fries">FRIES SIZE:</label>
+				<select name="flavor" id="flavor" size="1">
+					<option value="barbeque">Barbeque</option>
+					<option value="cheese">Cheese</option>
+					<option value="sourcream">Sour and Cream</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=3><label>Quantity:</label>
+				<input type="number" size="2" ></td>
+		</tr>
+
+		<tr>
+			<th class="title " colspan="2">PASTA</th>			
+		</tr>
+		<tr>		
+			<th colspan="2"><img src="PEDUCHE_IMAGES_ITAD/pasta.jpg" class="burger"></th>
+		</tr>
+
+		<tr>
+			<td colspan="3">
+			<label for="pasta">PASTA SAUCE:</label>
+				<select name="sauce" id="sauce" size="1">
+					<option value="carbonara">Carbonara</option>
+					<option value="pesto">Pesto</option>
+					<option value="spaghetti">Spaghetti</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td><label for="pastaadd" colspan="3">PASTA ADD-ONS:</label></td>
+			<td colspan="3">
+				<input type="checkbox" id="pasta1" name="PastaAdd" value="excheese">
+					<label for="pasta1">Extra Cheese</label><br>
+				<input type="checkbox" id="pasta2" name="PastaAdd" value="exsauce">
+					<label for="pasta2">Extra Sauce</label><br>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan=3><label>Other Add-ons</label>
+				<input type="text" size="2" ></td>
+		<tr>
+
+		<tr>
+			<td colspan=3><label>Quantity:</label>
+				<input type="number" size="2" ></td>
+		</tr>
+		
+		<tr>
+			<th class="title " colspan="2">DRINKS</th>			
+		</tr>
+		<tr>		
+			<th colspan="2"><img src="PEDUCHE_IMAGES_ITAD/drinks.jpg" class="burger"></th>
+		</tr>
+
+		<tr>
+			<td colspan="3">
+			<label for="soda">DRINKS:</label>
+				<select name="sodaa" id="sodaa" size="1">
+					<option value="fanta">Fanta</option>
+					<option value="sprite">Sprite</option>
+					<option value="cola">Coca-Cola</option>
+					<option value="pepsi">Pepsi</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+		<td><label for="drinksize">DRINKS SIZE:</label></td>
+			<td colspan="3">
+				<input type="radio" id="sizee" name="small" value="Small">
+					<label for="sizee">Small</label><br>
+				<input type="radio" id="sizee1" name="medium" value="Medium">
+					<label for="sizee1">Medium</label><br>
+				<input type="radio" id="sizee2" name="large" value="Large">
+					<label for="sizee2">Large</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=3><label>Quantity:</label>
+				<input type="number" size="2" ></td>
+		</tr>
+		<tr>
+			<td><br></td>
+		</tr>	
+	
+		<tr>
+			<th colspan="3"><label for="ability">FEEDBACK</label></th>
+		</tr>
+		<tr>
+			<th colspan="4">Help us improve our order form by indicating our feedback!</th>
+		</tr>
+		<tr>
+			<th colspan="3">
+				<textarea rows="10" cols="50"></textarea>
+			</th>
+		</tr>
+
+		<tr>
+			<td><label for="deliver">DELIVERY METHOD:</label></td>
+			<td>
+				<input type="radio" id="drive" name="Delivery" value="Delivery">
+					<label for="drive">Delivery</label><br>
+				<input type="radio" id="drive1" name="Delivery" value="Pick">
+					<label for="drive1">Pick-up</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td><br></td>
+		</tr>		
+		
+	</tbody>
+	<tfoot>
+		<tr>
+			<th colspan="3">
+					<input type="submit" id="btn1" value="Submit Form">
+					<input type="reset" id="btn1" value="Clear Form">
+			</th>	
+		</tr>
+	</tfoot>
+</table>
+</form>		
+</body>
+</html>
